@@ -1,0 +1,62 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background-color: rgb(255, 255, 255);
+}
+
+#noButton {
+  position: absolute;
+  margin-left: 150px;
+  transition: 0.5s;
+  background-color: lightcoral;
+  border: solid 2px red;
+}
+
+#yesButton {
+  position: absolute;
+  margin-right: 150px;
+  background-color: lightgreen;
+  border: solid 2px green;
+}
+
+#yesButton:hover{
+  background-color: green;
+}
+
+
+.header_text {
+  font-family: 'Nunito';
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.btn {
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  transition: 0.5s;
+}
+
+.gif_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
