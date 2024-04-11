@@ -1,2 +1,2 @@
 # Caminho
-Feito com pesquisa e prontos :(
+copiado com pesquisa e prontos :(
